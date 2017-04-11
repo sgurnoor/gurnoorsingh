@@ -1,0 +1,52 @@
+body {
+  font-family: 'Avenir'
+}
+.header {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  display:inline-block;
+}
+#name {
+  margin-left: 50px;
+  display:inline-block;
+}
+#email {
+  margin-right: 50px;
+  display:inline-block;
+  float: right;
+}
+.container {
+  margin-top: 200px;
+  margin-left: 150px;
+	margin-right: 150px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+h2 {
+  color: #767676;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    text-align:center;
+    margin-left: 0px;
+		margin-right: 0px;
+  }
+}
+img {
+	width: 50%;
+  height: auto;
+}
+#thumbnail {
+	width: auto;
+	height: 400px;
+	display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
